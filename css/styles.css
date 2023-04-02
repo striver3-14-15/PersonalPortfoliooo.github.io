@@ -1,0 +1,349 @@
+body {
+    text-align: center;
+    /* color: #66BFBF; */
+    /* font-family: 'Patrick Hand', cursive; */
+    margin: 0 auto 0 auto;
+    /* font-size: 5.625px; */
+    /* font-family: 'Sacramento', cursive; */
+    /* padding: 0px; */
+}
+
+
+/* ------------------hr------------------------- */
+
+.hrr {
+    /* border-width: 0.001ch; */
+    border: none;
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    color: lightgray;
+    margin: 0 auto 0 auto;
+    width: 14%;
+    height: 0.5%;
+    /* grid-template: ; */
+}
+
+@media (max-width: 767px) {
+    .hrr {
+        width: 20%;
+    }
+}
+
+.h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #11999E;
+    margin: 50px auto 0 auto;
+    text-shadow: 4px;
+    font-size: 3em;
+}
+
+.h1:hover {
+    display: inline-block;
+    color: fuchsia;
+    font-size: xx-large;
+    /* text-shadow: 10px 5px 5px black; */
+    background-color: #0e0b16;
+    text-shadow: 0.3em;
+}
+
+.div1 {
+    /* background-color: #CFF5E7; */
+    background: linear-gradient(to bottom, #1A2980, #66BFBF);
+    position: relative;
+    padding: 125px;
+    margin: 0 auto 0 auto;
+    border: 0;
+}
+
+.p11 {
+    color: #11999E;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8em;
+    /* font-family: 'Martel', serif; */
+}
+
+.sp1 {
+    /*SPAN PARA 1*/
+    text-decoration: underline;
+    /* font-family: 'Changa', sans-serif; */
+}
+
+.sp1:hover {
+    font-size: xx-large;
+    color: fuchsia;
+    background: #0e0b16;
+}
+
+
+/*-----------------MIDDLE-CONTAINER------------------*/
+
+.middle-container {
+    background-color: #66BFBF;
+    margin: 0 auto 0 auto;
+}
+
+
+/* ------------------SKILLS------------------------- */
+
+.skills {
+    background-color: #66BFBF;
+    margin: 0 auto 0 auto;
+}
+
+#skills101 {
+    position: relative;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+/* ------------------HOBBIES------------------------- */
+
+.hobbies {
+    background-color: #66BFBF;
+    margin: 0 auto 0 auto;
+}
+
+#hobbies101 {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .hobbies {
+        padding: 10px;
+    }
+}
+
+
+/* ------------------CLOUD EDITING------------------------- */
+
+.cloud-up {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+    .cloud-up {
+        left: 70%;
+        transform: translateX(-70%);
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cloud-up {
+        left: 60%;
+        transform: translateX(-60%);
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cloud-up {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .cloud-up {
+        left: 40%;
+        transform: translateX(-40%);
+        top: 10px;
+    }
+}
+
+
+/* --------------CLOUD DOWN-------------- */
+
+.cloud-down {
+    position: absolute;
+    /* left: 300px; */
+    /* bottom: 300px; */
+}
+
+
+/* MOUNTAIN EDITING */
+
+@media (max-width: 598px) {
+    .mountain-img {
+        position: relative;
+        top: 4vh;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* ------------------H2 EDITING------------------------- */
+
+.h2-wale {
+    color: #11999E;
+    margin: 0 auto 0 auto;
+}
+
+.h2-wale:hover {
+    color: #1338BE;
+}
+
+@media (max-width: 575px) {
+    .h2-wale {
+        font-size: 1.8rem;
+    }
+}
+
+
+/*------------------H3 EDITING-----------------------------*/
+
+.headder3 {
+    font-family: 'Martel', serif;
+    color: #11999E
+}
+
+.headder3:hover {
+    color: #1414ef;
+}
+
+@media (max-width: 575px) {
+    .headder3 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ---------------------FOOTER LINK------------------------ */
+
+.get-in-touch {
+    margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+    .get-in-touch {
+        padding: 10px;
+    }
+}
+
+
+/*---------------------CONTACT ME--------------------------*/
+
+#Contact-mee {
+    position: relative;
+}
+
+.contact-me {
+    margin: 0 auto 0 auto;
+    background: #66BFBF;
+}
+
+@media (max-width: 575px) {
+    .contact-me {
+        padding: 10px;
+    }
+}
+
+
+/* -------------------BOTTOM CONTAINER--------------------- */
+
+.bottom-container {
+    background: linear-gradient(to top, #1A2980, #66BFBF);
+    /* border-radius: 50% 50% 0 0; */
+    font-family: 'Martel', serif;
+    margin: 0 auto 0 auto;
+    padding: 20px 0;
+}
+
+@media (max-width: 991px) {
+    .bottom-container {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .bottom-container {
+        padding: 10px 0;
+    }
+}
+
+.p12 {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    /* margin: 0 auto 0 auto; */
+    color: indigo;
+    font-family: 'Martel', serif;
+}
+
+.p13 {
+    font-family: 'Martel', serif;
+    color: turquoise;
+}
+
+.email11 {
+    background-color: #66BFBF;
+    color: #11999E;
+}
+
+
+/*---------NAV CSS--------------------*/
+
+.nav-link {
+    padding: 0px 18px;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.apla-button {
+    padding: 0px 18px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .apla-button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+}
+
+.button-wale {
+    margin: 5% 3% 5% 0;
+}
+
+.navbar {
+    background-color: #1A2980;
+    color: #11999E;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    color: #11999E;
+    font-family: 'Ubuntu';
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.button-design {
+    color: #11999E;
+}
+
+.button-design:hover {
+    color: fuchsia;
+}
